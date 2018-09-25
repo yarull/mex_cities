@@ -1,0 +1,12 @@
+{
+    "name": "Yarull/Mex_cities",
+    "description": "Mexico states and cities database",
+    "authors": [
+        {
+            "name": "Yarull Alvarez",
+            "email": "yarullalvarez@hotmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
