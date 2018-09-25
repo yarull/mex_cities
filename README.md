@@ -2,7 +2,7 @@
 
 Install
 
-Register provider yarull\mex_cities\MexCitiesServiceProvider::class in config/app.php
+Register provider Yarull\Mex_cities\MexCitiesServiceProvider::class in config/app.php
 
 php artisan migrate --path=/vendor/yarull/mex_cities/src/migrations
 
