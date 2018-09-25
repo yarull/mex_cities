@@ -2,6 +2,7 @@
 namespace Yarull\Mex_cities;
 
 use Illuminate\Database\Seeder;
+use Illuminate\Support\Facades\DB;
 
 class EstadosCiudadesSeeder extends Seeder
 {
