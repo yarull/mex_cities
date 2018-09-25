@@ -1,4 +1,5 @@
 <?php
+namespace Yarull\Mex_cities;
 
 use Illuminate\Database\Seeder;
 
