@@ -15,8 +15,8 @@
 
 #### URLs
 
-`/estados`
-`/municipios`
+`/api/estados`
+`/api/municipios`
 
 ##### Parameters
 ```
