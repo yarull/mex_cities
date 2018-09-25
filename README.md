@@ -11,7 +11,7 @@
 `php artisan migrate --path=/vendor/yarull/mex_cities/src/migrations`
 
 #### Add States and Cities to database
-`php artisan db:seed --class=Yarull\\\Mex_cities\\\EstadosCiudadesSeeder`
+`php artisan db:seed --class=Yarull\\Mex_cities\\EstadosCiudadesSeeder`
 
 #### URLs
 
