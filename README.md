@@ -6,4 +6,4 @@ Register provider yarull\mex_cities\MexCitiesServiceProvider::class in config/ap
 
 php artisan migrate --path=/vendor/yarull/mex_cities/src/migrations
 
-php artisan db:seed --class=yarull\mex_cities\Seeds\EstadosCiudadesSeeder
+php artisan db:seed --class=Yarull\\Mex_cities\\EstadosCiudadesSeeder
