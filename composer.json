@@ -2,6 +2,7 @@
     "name": "yarull/mex_cities",
     "description": "Mexico states and cities database",
     "license": "MIT",
+    "keywords": ["mexico","estados","ciudades"],
     "authors": [
         {
             "name": "Yarull Alvarez",
@@ -15,9 +16,12 @@
     "require": {
         "php": ">=7.0.0"
     },
+    "require-dev": {
+
+    },
     "autoload": {
         "psr-4": {
-            "yarull\\mex_cities\\": "src/"
+            "Yarull\\Mex_cities\\": "src/"
         }
     }
 }
