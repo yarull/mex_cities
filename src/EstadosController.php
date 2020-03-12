@@ -4,7 +4,7 @@ namespace Yarull\Mex_cities;
 
 use Illuminate\Http\Request;
 use Yarull\Mex_cities\Estado;
-use Yarull\Mex_cities\Municipios;
+use Yarull\Mex_cities\Municipio;
 use Response;
 
 use App\Http\Controllers\Controller;
@@ -26,7 +26,7 @@ class EstadosController extends Controller
   
   public function municipio(Request $request)
   {
-    $municipios = Municipios::orderBy('name','asc');
+    $municipios = Municipio::orderBy('name','asc');
     
     if($request->estado){
       $municipios->where('estado_id',$request->estado);
@@ -36,7 +36,7 @@ class EstadosController extends Controller
     }
   
     $municipios = $municipios->get();
-//    dd($municipios);
     return Response::json($municipios);
   }
+
 }
